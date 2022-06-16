@@ -11,9 +11,6 @@ body{
     background-color: rgb(81, 177, 145);
 }
 
-.border{
-    border:solid 1px rgb(28, 68, 55)
-}
 
 
 .headerFlex{
@@ -28,8 +25,6 @@ body{
         align-items: center;
     }
 
-
-
 h2{
     font-size: larger;
     
@@ -39,7 +34,7 @@ h3{
     }
 
 iframe{
-    border-radius: 15px;
+    border-radius: 35px;
     border-color: #813867;
 }
 input{
@@ -58,18 +53,41 @@ textarea {
 }
 
 /*---clases**/
-.textoJustificado {
-    text-align: justify;
+.border{
+    border:solid 1px rgb(28, 68, 55)
 }
 
+.textoJustificado {
+    text-align: justify;
+   }
+
+.espacios{
+    margin: 20px;
+}
 /*TRANSICIONES*/
-.transicion {
+.transicion{
     transition: width 3s;
  }
  
 .transicion:hover {
     width: 100%;
        }
+
+/*--PSEUDO CLASES*/
+/*selector:pseudoclase { propiedad: valor; } */
+
+a:hover{ font-weight:bold;
+         background-color:rgb(47, 47, 240);
+         color:white;
+         text-decoration:underline; }
+
+a:link{  text-decoration:none;
+         color:rgb(153, 35, 35); }
+
+a:visited{ color:#113b0c; }
+
+a:active{ background-color:rgb(153, 153, 13); 
+          color:black; }
 
  /*ANIMACIONES*/
 
